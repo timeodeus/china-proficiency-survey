@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ancient China Specialization Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title">China History Specialization Survey</h1>
+        <p id="description">This survey will help us in establishing your future role in the research project</p>
+      </header>
+      <form id="survey-form">
+        <fieldset>
+        <label for="name" id="name-label">Enter Your Name: <input id="name" name="name" type="text" placeholder="Enter your name" required /></label>
+        <label for="email" id="email-label">Enter Your Email: <input id="email" name="email" type="email" placeholder="Enter your email" required /></label>
+        <label for="age" id="number-label">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" placeholder="Age" /></label>
+        <label for="dropdown">Specify your academic position:
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Student</option>
+            <option value="2">Master of Arts</option>
+            <option value="3">Postgraduate</option>
+            <option value="4">PhD</option>
+            <option value="5">Postdoc</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Involvement level (required)</legend>
+        <label for="part-time"><input id="part-time" type="radio" name="involvement-type" class="inline" value="part" checked /> Part-time</label>
+        <label for="full-time"><input id="full-time" type="radio" name="involvement-type" class="inline" value="full" /> Full Time</label>
+      </fieldset>
+      <fieldset>
+        <legend>Specify your area of expertise (check at least one)</legend>
+        <label>
+            <input
+              name="expert-area"
+              value="springs-and-autumns"
+              type="checkbox"
+              class="input-checkbox"
+            />Springs and Autumns</label
+          >
+          <label>
+            <input
+              name="expert-area"
+              value="warring-states"
+              type="checkbox"
+              class="input-checkbox"
+            />Warring States
+          </label>
+          <label>
+            <input
+              name="expert-area"
+              value="qin-han"
+              type="checkbox"
+              class="input-checkbox"
+            />Qin and Han
+          </label>
+          <label>
+            <input
+              name="expert-area"
+              value="north-south"
+              type="checkbox"
+              class="input-checkbox"
+            />North and South Dynasties
+          </label>
+          <label>
+            <input
+              name="expert-area"
+              value="sui"
+              type="checkbox"
+              class="input-checkbox"
+            />Sui Dynasty
+          </label>
+          <label>
+            <input
+              name="expert-area"
+              value="tang"
+              type="checkbox"
+              class="input-checkbox"
+            />Tang Dynasty
+          </label>
+          <label>
+            <input
+              name="expert-area"
+              value="five-dynasties-ten-kingdoms"
+              type="checkbox"
+              class="input-checkbox"
+            />
+            Five Dynasties and Ten Kingdoms
+          </label>
+          <label>
+            <input
+              name="expert-area"
+              value="yuan"
+              type="checkbox"
+              class="input-checkbox"
+            />
+            Yuan Empire
+          </label>
+          <label>
+            <input
+              name="expert-area"
+              value="ming"
+              type="checkbox"
+              class="input-checkbox"
+            />
+            Ming Dynasty
+          </label>
+          <label>
+            <input
+              name="expert-area"
+              value="qing"
+              type="checkbox"
+              class="input-checkbox"
+            />
+            Qing Dynasty
+          </label>
+          <label>
+            <input
+              name="expert-area"
+              value="early-republic"
+              type="checkbox"
+              class="input-checkbox"
+            />
+            Early Republic
+          </label>
+          <label>
+            <input
+              name="expert-area"
+              value="peoples-republic"
+              type="checkbox"
+              class="input-checkbox"
+            />
+            People's Republic
+          </label>
+        </fieldset>
+        <fieldset>
+        <label for="summary">Provide a short summary of your current research:
+          <textarea id="summary" name="summary" rows="7" cols="30" placeholder="I'm currently working on the Ming Empire international relations during the era of Zheng He nautical travels..."></textarea>
+        </label>
+      </fieldset>
+      </label>
+      <input id="submit" type="submit" value="Submit" />
+      </form>  
+    </div>  
+  </body>
+  <footer>
+  </footer>
+</html>  
